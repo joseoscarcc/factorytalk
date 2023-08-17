@@ -1,0 +1,10 @@
+Name: Tags
+Type: FolderType
+Children:
+- File: Controller Tags/Controller Tags.yaml
+- File: Program_Calendaring/Program_Calendaring.yaml
+- File: Program_CoatingDrying/Program_CoatingDrying.yaml
+- File: Program_Drill/Program_Drill.yaml
+- File: Program_Mixing/Program_Mixing.yaml
+- File: Program_Slitting/Program_Slitting.yaml
+- File: Program_WobbledataGenerator/Program_WobbledataGenerator.yaml

@@ -1,0 +1,32 @@
+Name: Translations
+Type: TranslationsCategoryFolder
+Children:
+- Name: LocalizationDictionary1
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [17,2],
+    "Body": [
+     "","en-US",
+     "Follow","Follow",
+     "Export CSV File","Export CSV File",
+     "ConfirmationDialogDisplayName","Confirmation Dialog",
+     "Close","Close",
+     "Export","Export",
+     "To","To",
+     "ProjectFolder","Project folder",
+     "From","From",
+     "ApplicationFolder","Application folder",
+     "Filename","File name",
+     "CSV File Path","CSV File Path",
+     "Size","Size",
+     "Configuration","Configuration",
+     "Create Report","Create Report",
+     "View Report","View Report",
+     "Report created","Report created"
+    ]
+   }

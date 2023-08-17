@@ -1,0 +1,23 @@
+Name: Trends_Properties
+Type: FolderType
+Children:
+- Name: Follow_Historical_Status
+  Id: g=59bde5d8ca1e5aa4156936262f2004d3
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Follow_Trend_Status
+  Id: g=04b038350552ccfd4d3d5c02f7d56722
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Dynamic_Trend_Status
+  Id: g=fcced25aa48ff53a78f3a6cbd81174d2
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Time_Window_Historical
+  Id: g=0ad84b99efb88b616651d8bc889c6903
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "00:05:00"

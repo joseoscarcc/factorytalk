@@ -1,0 +1,508 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: 'AB:1420_V1A_ENT_A691F258:I:0'
+  Id: g=76913c0419db6f094d9bab299349ce9f
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1420_V1A_ENT_A691F258:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "76913c0419db6f094d9bab299349ce9f",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "ConnectionFaulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Frequency",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L1ApparentPower",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L1PowerFactor",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L1ReactivePower",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L1RealPower",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L2ApparentPower",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L2PowerFactor",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L2ReactivePower",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L2RealPower",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L3ApparentPower",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L3PowerFactor",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L3ReactivePower",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L3RealPower",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PhaseSequence",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TotalApparentPwr",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TotalPowerFactor",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TotalReactivePwr",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TotalRealPower",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1420_V1A_ENT_A691F258:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1420_V1A_ENT_DBFAFEEF:I:0'
+  Id: g=783112e8b93bebe5f241da8c21d5b3a1
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1420_V1A_ENT_DBFAFEEF:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "783112e8b93bebe5f241da8c21d5b3a1",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "ConnectionFaulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DmdFrequency",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DmdL1ApparentPwr",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DmdL1PowerFactor",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DmdL1ReactivePwr",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DmdL1RealPower",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DmdL2ApparentPwr",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DmdL2PowerFactor",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DmdL2ReactivePwr",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DmdL2RealPower",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DmdL3ApparentPwr",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DmdL3PowerFactor",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DmdL3ReactivePwr",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DmdL3RealPower",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DmdTotalPF",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DmdTotalRealPwr",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DmdTotalVA",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DmdTotalVAR",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1420_V1A_ENT_DBFAFEEF:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1420_V1A_ENT_4F149A65:I:0'
+  Id: g=436792e5be24ab5acab406b2c6c78adc
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1420_V1A_ENT_4F149A65:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "436792e5be24ab5acab406b2c6c78adc",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "AvgLLVoltage",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "AvgLNVoltage",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ConnectionFaulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L1Current",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L1toL2Voltage",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L1toNVoltage",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L2Current",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L2toL3Voltage",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L2toNVoltage",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L3Current",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L3toL1Voltage",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L3toNVoltage",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "NeCurrentCalc",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1420_V1A_ENT_4F149A65:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1420_V1A_ENT_BC244CBD:I:0'
+  Id: g=e5851f69f7a8cf23096c1c297815831b
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1420_V1A_ENT_BC244CBD:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "e5851f69f7a8cf23096c1c297815831b",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "AnalogFWRev",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "BaseFirmwareRev",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "CommFirmwareRev",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ConnectionFaulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Letter11Letter12",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Letter13",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Letter1Letter2",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Letter3Letter4",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Letter5Letter6",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Letter7Letter8",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Letter9Letter10",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1420_V1A_ENT_BC244CBD:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1420_V1A_ENT_BC1E731C:I:0'
+  Id: g=fa58a80257aed0b7ce10a954bc71872f
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1420_V1A_ENT_BC1E731C:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "fa58a80257aed0b7ce10a954bc71872f",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "ConnectionFaulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GVARhConsumed",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "GVARhGenerated",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "GWhConsumed",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "GWhGenerated",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "HrsCounter",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "kVARhConsumed",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "kVARhGenerated",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "kWhConsumed",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "kWhGenerated",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "MinCounter",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PartialGVARhCon",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PartialGVARhGen",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PartialGWhCon",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PartialGWhGen",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PartialKVARhCon",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PartialKVARhGen",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PartialKWhCon",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PartialKWhGen",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1420_V1A_ENT_BC1E731C:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding

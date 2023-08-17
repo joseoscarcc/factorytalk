@@ -1,0 +1,957 @@
+Name: 'Program:CoatingDrying'
+Type: FolderType
+Children:
+- Name: AlarmBits
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.AlarmBits"
+- Name: Set_CmdHold
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Set_CmdHold"
+- Name: Set_CmdReStart
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Set_CmdReStart"
+- Name: Set_CmdStart
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Set_CmdStart"
+- Name: Set_CmdStop
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Set_CmdStop"
+- Name: Sts_Held
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Sts_Held"
+- Name: Sts_Running
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Sts_Running"
+- Name: Sts_SeqStep
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Sts_SeqStep"
+- Name: Cfg_DieLevelLow
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Cfg_DieLevelLow"
+- Name: Sts_Stopped
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Sts_Stopped"
+- Name: Val_OvenZ1Temperature
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Val_OvenZ1Temperature"
+- Name: Val_OvenZ2Temperature
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Val_OvenZ2Temperature"
+- Name: Val_OvenZ3Temperature
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Val_OvenZ3Temperature"
+- Name: Val_OvenZ4Temperature
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Val_OvenZ4Temperature"
+- Name: Val_DieTopPosition
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Val_DieTopPosition"
+- Name: Val_DieBottomPosition
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Val_DieBottomPosition"
+- Name: Val_DieTopLevel
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Val_DieTopLevel"
+- Name: Val_DieBottomLevel
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Val_DieBottomLevel"
+- Name: Val_WinderSpeed
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Val_WinderSpeed"
+- Name: Val_UnwinderSpeed
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Val_UnwinderSpeed"
+- Name: Val_LineSpeed
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Val_LineSpeed"
+- Name: Val_DieTopCylinderSpeed
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Val_DieTopCylinderSpeed"
+- Name: Inp_DieTopLevelHigh
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_DieTopLevelHigh"
+- Name: Inp_DieBottomLevelHigh
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_DieBottomLevelHigh"
+- Name: Inp_WinderArmHigh
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_WinderArmHigh"
+- Name: Inp_WinderArmLow
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_WinderArmLow"
+- Name: Inp_WinderCoilFull
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_WinderCoilFull"
+- Name: Inp_UnwinderArmHigh
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_UnwinderArmHigh"
+- Name: Inp_UnwinderArmLow
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_UnwinderArmLow"
+- Name: Inp_UnwinderCoilEmpty
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_UnwinderCoilEmpty"
+- Name: Inp_OvenZ1DoorClosed
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_OvenZ1DoorClosed"
+- Name: Inp_OvenZ2DoorClosed
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_OvenZ2DoorClosed"
+- Name: Inp_OvenZ3DoorClosed
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_OvenZ3DoorClosed"
+- Name: Inp_OvenZ4DoorClosed
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_OvenZ4DoorClosed"
+- Name: Inp_UnwinderCoilPresent
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_UnwinderCoilPresent"
+- Name: Inp_WinderCoilPresent
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_WinderCoilPresent"
+- Name: Inp_OvenZ1Temperature
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_OvenZ1Temperature"
+- Name: Inp_OvenZ2Temperature
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_OvenZ2Temperature"
+- Name: Inp_OvenZ3Temperature
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_OvenZ3Temperature"
+- Name: Inp_OvenZ4Temperature
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_OvenZ4Temperature"
+- Name: Inp_DieTopPosition
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_DieTopPosition"
+- Name: Inp_DieBottomPosition
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_DieBottomPosition"
+- Name: Inp_DieTopLevel
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_DieTopLevel"
+- Name: Inp_DieBottomLevel
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_DieBottomLevel"
+- Name: Val_DieBottomCylinderSpeed
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Val_DieBottomCylinderSpeed"
+- Name: Cfg_DieLevelHigh
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Cfg_DieLevelHigh"
+- Name: Out_DieBottomCylinderSpeed
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Out_DieBottomCylinderSpeed"
+- Name: Set_OvenZ1Temperature
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Set_OvenZ1Temperature"
+- Name: Set_OvenZ2Temperature
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Set_OvenZ2Temperature"
+- Name: Set_OvenZ3Temperature
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Set_OvenZ3Temperature"
+- Name: Set_OvenZ4Temperature
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Set_OvenZ4Temperature"
+- Name: Set_LineSpeed
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Set_LineSpeed"
+- Name: Set_WidthCoated
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Set_WidthCoated"
+- Name: Set_WidthGap
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Set_WidthGap"
+- Name: Out_OvenZ1Temperature
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Out_OvenZ1Temperature"
+- Name: Out_OvenZ2Temperature
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Out_OvenZ2Temperature"
+- Name: Out_OvenZ3Temperature
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Out_OvenZ3Temperature"
+- Name: Out_OvenZ4Temperature
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Out_OvenZ4Temperature"
+- Name: Inp_EStop
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_EStop"
+- Name: Out_EStop
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Out_EStop"
+- Name: Inp_CmdStart
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_CmdStart"
+- Name: Inp_CmdStop
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_CmdStop"
+- Name: Inp_WinderRadius
+  Type: RAEtherNetIPTag
+  DataType: Double
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_WinderRadius"
+- Name: Inp_UnwinderRadius
+  Type: RAEtherNetIPTag
+  DataType: Double
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_UnwinderRadius"
+- Name: Alm_Estop
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Alm_Estop"
+- Name: Alm_OvenZ1DoorOpen
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Alm_OvenZ1DoorOpen"
+- Name: Alm_OvenZ2DoorOpen
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Alm_OvenZ2DoorOpen"
+- Name: Alm_OvenZ3DoorOpen
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Alm_OvenZ3DoorOpen"
+- Name: Alm_OvenZ4DoorOpen
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Alm_OvenZ4DoorOpen"
+- Name: Cfg_DieCylinderSpeed
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Cfg_DieCylinderSpeed"
+- Name: Alm_UnwinderArmHigh
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Alm_UnwinderArmHigh"
+- Name: Alm_UnwinderArmLow
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Alm_UnwinderArmLow"
+- Name: Alm_WinderArmHigh
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Alm_WinderArmHigh"
+- Name: Alm_WinderArmLow
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Alm_WinderArmLow"
+- Name: Out_VentValve
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Out_VentValve"
+- Name: Alm_DieTopLevelHigh
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Alm_DieTopLevelHigh"
+- Name: Alm_DieBottomLevelHigh
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Alm_DieBottomLevelHigh"
+- Name: Alm_OvenZ1Temperature
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Alm_OvenZ1Temperature"
+- Name: Alm_OvenZ2Temperature
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Alm_OvenZ2Temperature"
+- Name: Alm_OvenZ3Temperature
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Alm_OvenZ3Temperature"
+- Name: Alm_OvenZ4Temperature
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Alm_OvenZ4Temperature"
+- Name: zzSIm_TON
+  Type: TIMER
+  DataType: TIMER
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Value: [{"TypeId":{"IdType":2,"Id":"e981fc0ac2a7f21a501785a296d35416","Namespace":30},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"e981fc0ac2a7f21a501785a296d35416","Namespace":30},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}}]
+  Children:
+  - Name: 0
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e981fc0ac2a7f21a501785a296d35416",
+       "Namespace": 30
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CoatingDrying.zzSIm_TON[0].ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CoatingDrying.zzSIm_TON[0].DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CoatingDrying.zzSIm_TON[0].EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CoatingDrying.zzSIm_TON[0].PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CoatingDrying.zzSIm_TON[0].TT"
+  - Name: 1
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e981fc0ac2a7f21a501785a296d35416",
+       "Namespace": 30
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CoatingDrying.zzSIm_TON[1].ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CoatingDrying.zzSIm_TON[1].DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CoatingDrying.zzSIm_TON[1].EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CoatingDrying.zzSIm_TON[1].PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CoatingDrying.zzSIm_TON[1].TT"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ACC"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DN"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "EN"
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PRE"
+  - Name: TT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TT"
+- Name: Inp_CmdVentValve
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Inp_CmdVentValve"
+- Name: Out_DieTopCylinderSpeed
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Out_DieTopCylinderSpeed"
+- Name: zTMP_CST_delta
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.zTMP_CST_delta"
+- Name: Alm_WinderCoilFull
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Alm_WinderCoilFull"
+- Name: Alm_UnwinderCoilEmpty
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CoatingDrying.Alm_UnwinderCoilEmpty"

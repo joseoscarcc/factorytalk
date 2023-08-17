@@ -1,0 +1,883 @@
+Name: VariableTypes
+Type: FolderType
+Children:
+- Name: 'AB:1420_V1A_ENT_A691F258:I:0'
+  Id: g=f1272af0047ae5d690e5369a936adb88
+  Supertype: TagStructure
+  DataType: 'AB:1420_V1A_ENT_A691F258:I:0'
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "76913c0419db6f094d9bab299349ce9f",
+     "Namespace": 30
+    },
+    "Body": {
+     "ConnectionFaulted": false,
+     "Frequency": 0.0,
+     "L1ApparentPower": 0.0,
+     "L1PowerFactor": 0.0,
+     "L1ReactivePower": 0.0,
+     "L1RealPower": 0.0,
+     "L2ApparentPower": 0.0,
+     "L2PowerFactor": 0.0,
+     "L2ReactivePower": 0.0,
+     "L2RealPower": 0.0,
+     "L3ApparentPower": 0.0,
+     "L3PowerFactor": 0.0,
+     "L3ReactivePower": 0.0,
+     "L3RealPower": 0.0,
+     "PhaseSequence": 0.0,
+     "TotalApparentPwr": 0.0,
+     "TotalPowerFactor": 0.0,
+     "TotalReactivePwr": 0.0,
+     "TotalRealPower": 0.0
+    }
+   }
+  Children:
+  - Name: ConnectionFaulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ConnectionFaulted"
+  - Name: Frequency
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Frequency"
+  - Name: L1ApparentPower
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L1ApparentPower"
+  - Name: L1PowerFactor
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L1PowerFactor"
+  - Name: L1ReactivePower
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L1ReactivePower"
+  - Name: L1RealPower
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L1RealPower"
+  - Name: L2ApparentPower
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L2ApparentPower"
+  - Name: L2PowerFactor
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L2PowerFactor"
+  - Name: L2ReactivePower
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L2ReactivePower"
+  - Name: L2RealPower
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L2RealPower"
+  - Name: L3ApparentPower
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L3ApparentPower"
+  - Name: L3PowerFactor
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L3PowerFactor"
+  - Name: L3ReactivePower
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L3ReactivePower"
+  - Name: L3RealPower
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L3RealPower"
+  - Name: PhaseSequence
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PhaseSequence"
+  - Name: TotalApparentPwr
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TotalApparentPwr"
+  - Name: TotalPowerFactor
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TotalPowerFactor"
+  - Name: TotalReactivePwr
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TotalReactivePwr"
+  - Name: TotalRealPower
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TotalRealPower"
+- Name: 'AB:1420_V1A_ENT_DBFAFEEF:I:0'
+  Id: g=7345fbced4527c8dfe80b4e3ff005e9b
+  Supertype: TagStructure
+  DataType: 'AB:1420_V1A_ENT_DBFAFEEF:I:0'
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "783112e8b93bebe5f241da8c21d5b3a1",
+     "Namespace": 30
+    },
+    "Body": {
+     "ConnectionFaulted": false,
+     "DmdFrequency": 0.0,
+     "DmdL1ApparentPwr": 0.0,
+     "DmdL1PowerFactor": 0.0,
+     "DmdL1ReactivePwr": 0.0,
+     "DmdL1RealPower": 0.0,
+     "DmdL2ApparentPwr": 0.0,
+     "DmdL2PowerFactor": 0.0,
+     "DmdL2ReactivePwr": 0.0,
+     "DmdL2RealPower": 0.0,
+     "DmdL3ApparentPwr": 0.0,
+     "DmdL3PowerFactor": 0.0,
+     "DmdL3ReactivePwr": 0.0,
+     "DmdL3RealPower": 0.0,
+     "DmdTotalPF": 0.0,
+     "DmdTotalRealPwr": 0.0,
+     "DmdTotalVA": 0.0,
+     "DmdTotalVAR": 0.0
+    }
+   }
+  Children:
+  - Name: ConnectionFaulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ConnectionFaulted"
+  - Name: DmdFrequency
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DmdFrequency"
+  - Name: DmdL1ApparentPwr
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DmdL1ApparentPwr"
+  - Name: DmdL1PowerFactor
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DmdL1PowerFactor"
+  - Name: DmdL1ReactivePwr
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DmdL1ReactivePwr"
+  - Name: DmdL1RealPower
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DmdL1RealPower"
+  - Name: DmdL2ApparentPwr
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DmdL2ApparentPwr"
+  - Name: DmdL2PowerFactor
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DmdL2PowerFactor"
+  - Name: DmdL2ReactivePwr
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DmdL2ReactivePwr"
+  - Name: DmdL2RealPower
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DmdL2RealPower"
+  - Name: DmdL3ApparentPwr
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DmdL3ApparentPwr"
+  - Name: DmdL3PowerFactor
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DmdL3PowerFactor"
+  - Name: DmdL3ReactivePwr
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DmdL3ReactivePwr"
+  - Name: DmdL3RealPower
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DmdL3RealPower"
+  - Name: DmdTotalPF
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DmdTotalPF"
+  - Name: DmdTotalRealPwr
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DmdTotalRealPwr"
+  - Name: DmdTotalVA
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DmdTotalVA"
+  - Name: DmdTotalVAR
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DmdTotalVAR"
+- Name: 'AB:1420_V1A_ENT_4F149A65:I:0'
+  Id: g=58e0defaf3a53efc6b3bc1790cff5da8
+  Supertype: TagStructure
+  DataType: 'AB:1420_V1A_ENT_4F149A65:I:0'
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "436792e5be24ab5acab406b2c6c78adc",
+     "Namespace": 30
+    },
+    "Body": {
+     "AvgLLVoltage": 0.0,
+     "AvgLNVoltage": 0.0,
+     "ConnectionFaulted": false,
+     "L1Current": 0.0,
+     "L1toL2Voltage": 0.0,
+     "L1toNVoltage": 0.0,
+     "L2Current": 0.0,
+     "L2toL3Voltage": 0.0,
+     "L2toNVoltage": 0.0,
+     "L3Current": 0.0,
+     "L3toL1Voltage": 0.0,
+     "L3toNVoltage": 0.0,
+     "NeCurrentCalc": 0.0
+    }
+   }
+  Children:
+  - Name: AvgLLVoltage
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AvgLLVoltage"
+  - Name: AvgLNVoltage
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AvgLNVoltage"
+  - Name: ConnectionFaulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ConnectionFaulted"
+  - Name: L1Current
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L1Current"
+  - Name: L1toL2Voltage
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L1toL2Voltage"
+  - Name: L1toNVoltage
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L1toNVoltage"
+  - Name: L2Current
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L2Current"
+  - Name: L2toL3Voltage
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L2toL3Voltage"
+  - Name: L2toNVoltage
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L2toNVoltage"
+  - Name: L3Current
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L3Current"
+  - Name: L3toL1Voltage
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L3toL1Voltage"
+  - Name: L3toNVoltage
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L3toNVoltage"
+  - Name: NeCurrentCalc
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "NeCurrentCalc"
+- Name: 'AB:1420_V1A_ENT_BC244CBD:I:0'
+  Id: g=01794cad5c1fa02e6fed27d70fa6e299
+  Supertype: TagStructure
+  DataType: 'AB:1420_V1A_ENT_BC244CBD:I:0'
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "e5851f69f7a8cf23096c1c297815831b",
+     "Namespace": 30
+    },
+    "Body": {
+     "AnalogFWRev": 0,
+     "BaseFirmwareRev": 0,
+     "CommFirmwareRev": 0,
+     "ConnectionFaulted": false,
+     "Letter11Letter12": 0,
+     "Letter13": 0,
+     "Letter1Letter2": 0,
+     "Letter3Letter4": 0,
+     "Letter5Letter6": 0,
+     "Letter7Letter8": 0,
+     "Letter9Letter10": 0
+    }
+   }
+  Children:
+  - Name: AnalogFWRev
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AnalogFWRev"
+  - Name: BaseFirmwareRev
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BaseFirmwareRev"
+  - Name: CommFirmwareRev
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CommFirmwareRev"
+  - Name: ConnectionFaulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ConnectionFaulted"
+  - Name: Letter11Letter12
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Letter11Letter12"
+  - Name: Letter13
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Letter13"
+  - Name: Letter1Letter2
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Letter1Letter2"
+  - Name: Letter3Letter4
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Letter3Letter4"
+  - Name: Letter5Letter6
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Letter5Letter6"
+  - Name: Letter7Letter8
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Letter7Letter8"
+  - Name: Letter9Letter10
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Letter9Letter10"
+- Name: 'AB:1420_V1A_ENT_BC1E731C:I:0'
+  Id: g=a281e38c33078458c1b6f36014f9660e
+  Supertype: TagStructure
+  DataType: 'AB:1420_V1A_ENT_BC1E731C:I:0'
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "fa58a80257aed0b7ce10a954bc71872f",
+     "Namespace": 30
+    },
+    "Body": {
+     "ConnectionFaulted": false,
+     "GVARhConsumed": 0.0,
+     "GVARhGenerated": 0.0,
+     "GWhConsumed": 0.0,
+     "GWhGenerated": 0.0,
+     "HrsCounter": 0.0,
+     "kVARhConsumed": 0.0,
+     "kVARhGenerated": 0.0,
+     "kWhConsumed": 0.0,
+     "kWhGenerated": 0.0,
+     "MinCounter": 0.0,
+     "PartialGVARhCon": 0.0,
+     "PartialGVARhGen": 0.0,
+     "PartialGWhCon": 0.0,
+     "PartialGWhGen": 0.0,
+     "PartialKVARhCon": 0.0,
+     "PartialKVARhGen": 0.0,
+     "PartialKWhCon": 0.0,
+     "PartialKWhGen": 0.0
+    }
+   }
+  Children:
+  - Name: ConnectionFaulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ConnectionFaulted"
+  - Name: GVARhConsumed
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "GVARhConsumed"
+  - Name: GVARhGenerated
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "GVARhGenerated"
+  - Name: GWhConsumed
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "GWhConsumed"
+  - Name: GWhGenerated
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "GWhGenerated"
+  - Name: HrsCounter
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HrsCounter"
+  - Name: kVARhConsumed
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "kVARhConsumed"
+  - Name: kVARhGenerated
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "kVARhGenerated"
+  - Name: kWhConsumed
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "kWhConsumed"
+  - Name: kWhGenerated
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "kWhGenerated"
+  - Name: MinCounter
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MinCounter"
+  - Name: PartialGVARhCon
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PartialGVARhCon"
+  - Name: PartialGVARhGen
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PartialGVARhGen"
+  - Name: PartialGWhCon
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PartialGWhCon"
+  - Name: PartialGWhGen
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PartialGWhGen"
+  - Name: PartialKVARhCon
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PartialKVARhCon"
+  - Name: PartialKVARhGen
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PartialKVARhGen"
+  - Name: PartialKWhCon
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PartialKWhCon"
+  - Name: PartialKWhGen
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PartialKWhGen"

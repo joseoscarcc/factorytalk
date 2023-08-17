@@ -1,0 +1,37 @@
+Project:
+ Name: SandBox_Energy_Design
+ ProjectNamespaceIndex: 8
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.2
+ CoreVersion: 2.0
+ Dependencies:
+  2:
+   Uri: SandBox_Energy
+   RelativePath: SandBox_Energy.optix
+  3:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 2.1
+  4:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 1.0
+  5:
+   Uri: 'urn:FTOptix:TagImporter'
+   Module: FTOptix.TagImporter
+   Version: 1.0
+  6:
+   Uri: 'urn:FTOptix:RAEtherNetIPTagImporter'
+   Module: FTOptix.RAEtherNetIPTagImporter
+   Version: 1.0
+  7:
+   Uri: 'urn:FTOptix:NetLogic'
+   Module: FTOptix.NetLogic
+   Version: 1.0
+ Nodes:
+ - File: DesignTimeNodes/CommDrivers/PM500/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/TagImporter.yaml
+ - File: DesignTimeNodes/CommDrivers/Packaging/LogixController/PLC_Packaging/TagImporter.yaml
+ - File: DesignTimeNodes/CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/TagImporter.yaml

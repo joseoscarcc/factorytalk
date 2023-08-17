@@ -1,0 +1,13 @@
+Name: Settings
+Type: FolderType
+Children:
+- Name: FolderPath
+  Id: g=4f1b9f29f94e190975396444e5b1090b
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "%PROJECTDIR%\\CSV"
+- Name: PLC_URL
+  Id: g=943bc971a73a07d75a8da48772c983a5
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "127.0.0.1"
