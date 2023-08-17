@@ -1,2 +1,50 @@
 Name: Converters
 Type: ConvertersCategoryFolder
+Children:
+- Name: EngineeringUnitConverter1
+  Id: g=eec48e3cb0ca8a3a87d2b7ff360e29ac
+  Supertype: EUConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Source
+    Type: BaseDataVariableType
+    DataType: Number
+    ReferenceType: HasSource
+    Value: {"Type":11,"Body":0.0}
+- Name: LinearConverter1
+  Id: g=46eaa8c68d48457b41a078096fe903f5
+  Supertype: LinearConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Source
+    Type: BaseDataVariableType
+    DataType: Number
+    ReferenceType: HasSource
+    Value: {"Type":11,"Body":0.0}
+- Name: ExpressionEvaluator1
+  Id: g=68c17931e2777fbfae4fc527beb5d998
+  Supertype: ExpressionEvaluator
+  ReferenceType: HasComponent
+  Children:
+  - Name: Expression
+    Type: BaseDataVariableType
+    DataType: String
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: "cos"
+  - Name: Mode
+    Type: PropertyType
+    DataType: DynamicLinkMode
+    ReferenceType: HasComponent
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{NodeId:ns=30;g=85016fd3-1859-1988-383c-b40ce38eb8a8}"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2

@@ -8,7 +8,7 @@ Children:
   - Name: Tables
     Type: BaseObjectType
     Children:
-    - Name: DataLogger1
+    - Name: EnergyTable
       Id: g=02482345d4aac15cb842786d6069b7e2
       Type: SQLiteStoreTable
       Children:
@@ -28,70 +28,39 @@ Children:
         Type: BaseObjectType
         Children:
         - Name: LocalTimestamp
-          Id: g=9ef5d17b7908bd6d8281296b73aced93
           Type: StoreColumn
           DataType: DateTime
           Value: "1601-01-01T00:00:00.0000000"
-        - Name: Pressure 1
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../../../../Model/Drill/Pressure_1"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              Value: 2
-        - Name: Pressure 2
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../../../../Model/Drill/Pressure_2"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              Value: 2
-        - Name: Rotation Speed 1
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../../../../Model/Drill/Rotation Speed 1"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              Value: 2
-        - Name: Rotation Speed 2
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../../../../Model/Drill/Rotation Speed 2"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              Value: 2
         - Name: Timestamp
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
+        - Name: Voltage
+          Type: StoreColumn
+          DataType: BaseDataType
+        - Name: Current
+          Type: StoreColumn
+          DataType: BaseDataType
+        - Name: Energy
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Real Power
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Apparent Power
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Reactive Power
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Power Factor
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
   - Class: Reference
     Target: ns=19;i=30
     Direction: Forward

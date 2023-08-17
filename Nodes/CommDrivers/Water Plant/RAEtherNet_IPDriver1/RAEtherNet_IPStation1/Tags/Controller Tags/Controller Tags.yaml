@@ -314,6 +314,7 @@ Children:
       DataType: String
       Value: "PM500:I3.ConnectionFaulted"
   - Name: Frequency
+    Id: g=94d2aff00cee9727cab2e3305c402340
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0

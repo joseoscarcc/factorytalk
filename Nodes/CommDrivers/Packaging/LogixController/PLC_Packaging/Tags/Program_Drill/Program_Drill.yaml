@@ -577,7 +577,6 @@ Children:
     DataType: String
     Value: "Program:Drill.Inp_Vibration"
 - Name: Inp_Bit01Pressure
-  Id: g=d5da4e18cd0501d73eb91543e2a1b60d
   Type: RAEtherNetIPTag
   DataType: Float
   Value: 0.0

@@ -2,7 +2,6 @@ Name: Drill
 Type: FolderType
 Children:
 - Name: Pressure_1
-  Id: g=4a9aaabb1c8f6e42558a231edf05ee5e
   Type: AnalogItemType
   DataType: Float
   Value: 0.0
@@ -80,7 +79,6 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: Pressure_2
-  Id: g=95df8e4ed7c29989a20e26b96a825f9a
   Type: AnalogItemType
   DataType: Float
   Value: 0.0
@@ -158,7 +156,6 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: Rotation Speed 1
-  Id: g=20389edeed5e5a4aebc67664b6f6e6d0
   Type: AnalogItemType
   DataType: Float
   Value: 0.0
@@ -236,7 +233,6 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: Rotation Speed 2
-  Id: g=f76b3ce99b6d8c84adf416ec3e583acd
   Type: AnalogItemType
   DataType: Float
   Value: 0.0
@@ -328,7 +324,6 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: LubeHeatersTemperature
-  Id: g=1d0b4befc489df9f77a91a5353f31cd2
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0

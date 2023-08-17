@@ -21,7 +21,97 @@ Children:
   - Name: VariablesToLog
     Type: BaseObjectType
     Children:
-    - Name: Pressure 1
+    - Name: Voltage
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: StringFormatter1
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          Value: {"LocaleId":"","Text":"{0:n2}"}
+        - Name: ns=3;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I2/L1toNVoltage"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: Mode
+          Type: PropertyType
+          DataType: DynamicLinkMode
+          ReferenceType: HasComponent
+          Value: 2
+    - Name: Current
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: StringFormatter1
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          Value: {"LocaleId":"","Text":"{0:n3}"}
+        - Name: ns=3;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I2/L1Current"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: Mode
+          Type: PropertyType
+          DataType: DynamicLinkMode
+          ReferenceType: HasComponent
+          Value: 2
+    - Name: Energy
       Type: VariableToLog
       DataType: BaseDataType
       Children:
@@ -42,13 +132,13 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../Model/Drill/Pressure_1"
+        Value: "../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I5/kWhConsumed"
         Children:
         - Name: Mode
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
-    - Name: Pressure 2
+    - Name: Real Power
       Type: VariableToLog
       DataType: BaseDataType
       Children:
@@ -69,13 +159,13 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../Model/Drill/Pressure_2"
+        Value: "../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I3/L2RealPower"
         Children:
         - Name: Mode
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
-    - Name: Rotation Speed 1
+    - Name: Apparent Power
       Type: VariableToLog
       DataType: BaseDataType
       Children:
@@ -96,13 +186,13 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../Model/Drill/Rotation Speed 1"
+        Value: "../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I3/L1ApparentPower"
         Children:
         - Name: Mode
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
-    - Name: Rotation Speed 2
+    - Name: Reactive Power
       Type: VariableToLog
       DataType: BaseDataType
       Children:
@@ -123,7 +213,34 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../Model/Drill/Rotation Speed 2"
+        Value: "../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I3/L1ReactivePower"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Power Factor
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I3/L1PowerFactor"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -139,7 +256,7 @@ Children:
   - Name: TableName
     Type: PropertyType
     DataType: String
-    Value: ""
+    Value: "EnergyTable"
   - Name: SamplingPeriod
     Id: g=6d7e5e7374e45e2406c11b0859a77869
     Type: PropertyType
