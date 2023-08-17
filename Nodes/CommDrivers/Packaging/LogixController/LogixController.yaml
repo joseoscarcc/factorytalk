@@ -1,4 +1,0 @@
-Name: LogixController
-Type: RAEtherNetIPDriver
-Children:
-- File: PLC_Packaging/PLC_Packaging.yaml

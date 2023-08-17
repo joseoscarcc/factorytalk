@@ -33,5 +33,4 @@ Project:
    Version: 1.0
  Nodes:
  - File: DesignTimeNodes/CommDrivers/PM500/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/TagImporter.yaml
- - File: DesignTimeNodes/CommDrivers/Packaging/LogixController/PLC_Packaging/TagImporter.yaml
  - File: DesignTimeNodes/CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/TagImporter.yaml
