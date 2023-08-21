@@ -3,33 +3,99 @@ Type: FolderType
 Children:
 - Name: PowerFactor
   Type: BaseDataVariableType
-  DataType: Int32
-  Value: 0
+  DataType: Float
+  Value: 0.0
   Children:
-  - Name: ExpressionEvaluator1
-    Type: ExpressionEvaluator
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Normal_PowerFactor_L1"
     Children:
-    - Name: Expression
-      Type: BaseDataVariableType
-      DataType: String
-      ReferenceType: HasParameter
-      Value: "{0}"
-    - Name: ns=3;Source0
-      Type: BaseDataVariableType
-      DataType: BaseDataType
-      ReferenceType: HasSource
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: ""
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
     - Name: Mode
-      Type: PropertyType
+      Type: BaseVariableType
       DataType: DynamicLinkMode
-      ReferenceType: HasComponent
+      Value: 2
+- Name: PowerApparent
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I3/L1ApparentPower"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: PowerReal
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I3/L1RealPower"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: PowerReactive
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I3/L1ReactivePower"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Voltage
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I2/L1toNVoltage"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Current
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I2/L1Current"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Frequency
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I3/Frequency"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
       Value: 2

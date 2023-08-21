@@ -16,7 +16,6 @@ Children:
   DataType: Boolean
   Value: false
 - Name: Time_Window_Historical
-  Id: g=0ad84b99efb88b616651d8bc889c6903
   Type: BaseDataVariableType
   DataType: String
   Value: "00:05:00"
