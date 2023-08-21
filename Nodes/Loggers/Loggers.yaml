@@ -2,7 +2,6 @@ Name: Loggers
 Type: LoggersCategoryFolder
 Children:
 - Name: DataLogger1
-  Id: g=8fa87f268758baa0d957c890f3830bdb
   Type: DataLogger
   Children:
   - Name: SamplingMode
@@ -42,7 +41,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I2/L1toNVoltage"
+        Value: "../../../../Model/PM500/Voltage"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -69,7 +68,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I2/L1Current"
+        Value: "../../../../Model/PM500/Current"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -96,7 +95,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I3/Frequency"
+        Value: "../../../../Model/PM500/Frequency"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -107,6 +106,7 @@ Children:
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=9711d20c2226f890df529e52668a6d2a
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
@@ -123,7 +123,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I3/L1ApparentPower"
+        Value: "../../../../Model/PM500/PowerApparent"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -150,7 +150,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Normal_PowerFactor_L1"
+        Value: "../../../../Model/PM500/PowerFactor"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -177,7 +177,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I3/L1ReactivePower"
+        Value: "../../../../Model/PM500/PowerReactive"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -188,6 +188,7 @@ Children:
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=4242b343d46c4e421aa2f93dcd0e48ad
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
@@ -204,7 +205,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I3/L1RealPower"
+        Value: "../../../../Model/PM500/PowerReal"
         Children:
         - Name: Mode
           Type: BaseVariableType
