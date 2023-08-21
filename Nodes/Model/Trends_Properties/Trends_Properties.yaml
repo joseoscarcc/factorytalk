@@ -2,6 +2,7 @@ Name: Trends_Properties
 Type: FolderType
 Children:
 - Name: Follow_Historical_Status
+  Id: g=8f6acba08f134ed6b3d820219a5b9423
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
