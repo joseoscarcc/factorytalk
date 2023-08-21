@@ -11,3 +11,13 @@ Children:
   Type: BaseDataVariableType
   DataType: String
   Value: "127.0.0.1"
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Route"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

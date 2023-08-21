@@ -4342,7 +4342,7 @@ Children:
       - Name: Model
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"a1720633ae20ef1e62312f8fb5d8eecf","Namespace":30}
+        Value: {"IdType":2,"Id":"c253523907fa9cec126942468e0bf185","Namespace":30}
         Children:
         - Name: ItemKind
           Type: PropertyType
@@ -4356,7 +4356,7 @@ Children:
         Id: g=24e57dab59a903bc429edfba55419e71
         Type: BaseDataVariableType
         DataType: String
-        Value: "SELECT * FROM \"EnergyTable\""
+        Value: "SELECT * FROM \"DataLogger1\" limit 10"
       - Name: UISelectedItem
         Type: BaseDataVariableType
         DataType: NodeId
@@ -4517,12 +4517,7 @@ Children:
       - Name: SortColumn
         Type: BaseDataVariableType
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../Columns/Timestamp@NodeId"
+        Value: {"IdType":2,"Id":"c6072f39e0a572575b9f5ead383b35dd","Namespace":30}
       - Name: SortOrder
         Type: BaseDataVariableType
         DataType: SortOrderEnum

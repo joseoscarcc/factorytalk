@@ -80,7 +80,7 @@ Children:
   - Name: Protocol
     Type: BaseDataVariableType
     DataType: Protocol
-    Value: 1
+    Value: 0
   - Name: IPAddress
     Type: BaseDataVariableType
     DataType: String

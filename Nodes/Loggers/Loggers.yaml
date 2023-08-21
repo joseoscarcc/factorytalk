@@ -2,7 +2,6 @@ Name: Loggers
 Type: LoggersCategoryFolder
 Children:
 - Name: DataLogger1
-  Id: g=a1720633ae20ef1e62312f8fb5d8eecf
   Type: DataLogger
   Children:
   - Name: SamplingMode
@@ -219,3 +218,17 @@ Children:
     Type: PropertyType
     DataType: Boolean
     Value: true
+  - Name: SamplingPeriod
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:1.0000000"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Trends_Properties/Sampling_Period_Value"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2

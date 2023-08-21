@@ -1,10 +1,6 @@
 Name: Trends_Properties
 Type: FolderType
 Children:
-- Name: Follow_Historical_Status
-  Type: BaseDataVariableType
-  DataType: Boolean
-  Value: false
 - Name: Follow_Trend_Status
   Id: g=04b038350552ccfd4d3d5c02f7d56722
   Type: BaseDataVariableType
@@ -16,6 +12,17 @@ Children:
   DataType: Boolean
   Value: false
 - Name: Time_Window_Historical
+  Id: g=6ec9581788c01cfa42f7ce147ad74daf
   Type: BaseDataVariableType
   DataType: String
   Value: "00:05:00"
+- Name: Auto_Refresh_Time
+  Id: g=50a9ed72acc1ad2ed4939dd8362d29fb
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "00:00:01.000"
+- Name: Sampling_Period_Value
+  Id: g=0b374861076a088b6628b9fd335d33bb
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:00:1.0000000"

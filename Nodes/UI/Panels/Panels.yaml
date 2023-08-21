@@ -1,7 +1,7 @@
 Name: Panels
 Type: FolderType
 Children:
-- Name: Panel1
+- Name: Panel_Main
   Id: g=c70235c00c7c042a493585b02aa48779
   Supertype: Panel
   ReferenceType: HasComponent
@@ -1511,7 +1511,7 @@ Children:
       DataType: TextHorizontalAlignment
       ModellingRule: Optional
       Value: 2
-- Name: Panel2
+- Name: Panel_Widgets
   Id: g=e511650c4a752d5c032e85a78717f934
   Supertype: Panel
   ReferenceType: HasComponent
@@ -1677,7 +1677,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 130.0
+      Value: 210.0
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
@@ -1844,7 +1844,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 130.0
+      Value: 210.0
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
@@ -2006,12 +2006,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 830.0
+      Value: 840.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 140.0
+      Value: 220.0
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
@@ -2178,7 +2178,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 380.0
+      Value: 460.0
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
@@ -2204,7 +2204,7 @@ Children:
       DataType: TextHorizontalAlignment
       ModellingRule: Optional
       Value: 1
-- Name: Panel3
+- Name: Panel_Table
   Id: g=f382e6ff5e4bffe5bb5a20635db229b9
   Supertype: Panel
   ReferenceType: HasComponent
@@ -2318,13 +2318,24 @@ Children:
           Type: PropertyType
           DataType: UInt16
           Value: 0
-  - Name: TextBox1
+  - Name: Auto_Refresh_Time_Value
     Type: TextBox
     Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"0000:00:00.000"}
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: ".."
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -2520,7 +2531,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "{NodeId:ns=30;g=6d7e5e73-74e4-5e24-06c1-1b0859a77869}"
+        Value: "{NodeId:ns=30;g=0b374861-076a-088b-6628-b9fd335d33bb}"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -2894,7 +2905,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 350.0
+      Value: 400.0
     - Name: Item
       Type: Alias
       DataType: NodeId
@@ -2917,8 +2928,12 @@ Children:
     - Name: AutoRefreshTime
       Type: BaseDataVariableType
       DataType: Duration
-      ModellingRule: Optional
       Value: "0:00:00:1.0000000"
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=50a9ed72-acc1-ad2e-d493-9dd8362d29fb}"
     - Name: SortColumn
       Type: BaseDataVariableType
       DataType: NodeId
@@ -2927,13 +2942,13 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../Columns/Timestamp@NodeId"
+        Value: "../Columns/LocalTimestamp@NodeId"
     - Name: SortOrder
       Type: BaseDataVariableType
       DataType: SortOrderEnum
       ModellingRule: Optional
       Value: 1
-- Name: Panel4
+- Name: Panel_Trend
   Id: g=4d9234825956fd0ff241eb0744c624c9
   Supertype: Panel
   ReferenceType: HasComponent
@@ -3028,14 +3043,29 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         Value: false
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{NodeId:ns=30;g=04b03835-0552-ccfd-4d3d-5c02f7d56722}"
       - Name: Window
         Type: BaseDataVariableType
         DataType: Duration
         Value: "0:00:05:0.0000000"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{NodeId:ns=30;g=6ec95817-88c0-1cfa-42f7-ce147ad74daf}"
       - Name: Interactive
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{NodeId:ns=30;g=fcced25a-a48f-f53a-78f3-a6cbd81174d2}"
       - Name: Time
         Type: BaseDataVariableType
         DataType: DateTime
@@ -3127,7 +3157,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../Trend1/XAxis/Window"
+        Value: "{NodeId:ns=30;g=6ec95817-88c0-1cfa-42f7-ce147ad74daf}"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -3219,18 +3249,120 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 55.0
+      Value: 60.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 495.0
+      Value: 493.0
     - Name: UncheckedText
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"Dynamic"}
-- Name: Panel6
+  - Name: Trend1_MaxLimit
+    Type: TextBox
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Trend1/YAxis/MinValue"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 790.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+  - Name: Trend1_MinLimit
+    Type: TextBox
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Trend1/YAxis/MinValue"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 790.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 380.0
+  - Name: Label2
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Max Limit"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 790.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 40.0
+  - Name: Label3
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Min Limit"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 790.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 360.0
+- Name: Panel_Report
   Id: g=26ed66681b534e00f1a9eaca7de8647e
   Supertype: Panel
   ReferenceType: HasComponent
@@ -3560,7 +3692,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: ResourceUri
                 Description: {"NamespaceIndex":13,"TextId":"GeneratePdfOutputPathDescription"}
-                Value: "file:///C:/Shared Files - Process Room/FT Optix Files/SandBox_1/ProjectFiles/PDF/DataReport.pdf"
+                Value: "ns=30;%PROJECTDIR%/PDF/DataReport.pdf"
               - Name: LocaleId
                 Type: BaseDataVariableType
                 DataType: String
@@ -3679,12 +3811,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 453.0
+        Value: 455.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 182.0
+        Value: 176.0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
