@@ -8,7 +8,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "e5851f69f7a8cf23096c1c297815831b",
+     "Id": "f81c1f16aaa16bbb584cd284f31fa7be",
      "Namespace": 30
     },
     "Body": {
@@ -132,7 +132,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "436792e5be24ab5acab406b2c6c78adc",
+     "Id": "77d4a2b13caeb08cc1e334136909c2da",
      "Namespace": 30
     },
     "Body": {
@@ -278,7 +278,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "76913c0419db6f094d9bab299349ce9f",
+     "Id": "efd7f1535d7b7b1c55cf3237cda28d14",
      "Namespace": 30
     },
     "Body": {
@@ -485,7 +485,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "783112e8b93bebe5f241da8c21d5b3a1",
+     "Id": "0f75739e321f6e4a3534026861b6c75f",
      "Namespace": 30
     },
     "Body": {
@@ -679,7 +679,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "fa58a80257aed0b7ce10a954bc71872f",
+     "Id": "2e7d7973ea1b73beb1dca84d077a9c4a",
      "Namespace": 30
     },
     "Body": {
@@ -877,3 +877,13 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "PM500:I5.PartialKWhGen"
+- Name: Normal_PowerFactor_L1
+  Id: g=d499a8a87eb1f198b722c261e439c963
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Normal_PowerFactor_L1"

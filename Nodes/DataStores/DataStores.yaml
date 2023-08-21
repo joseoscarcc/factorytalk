@@ -2,14 +2,13 @@ Name: DataStores
 Type: DataStoresCategoryFolder
 Children:
 - Name: EmbeddedDatabase1
-  Id: g=b772b0b5f167821f8aec1e4c82b355cc
+  Id: g=c253523907fa9cec126942468e0bf185
   Type: SQLiteStore
   Children:
   - Name: Tables
     Type: BaseObjectType
     Children:
-    - Name: EnergyTable
-      Id: g=02482345d4aac15cb842786d6069b7e2
+    - Name: DataLogger1
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -31,36 +30,108 @@ Children:
           Type: StoreColumn
           DataType: DateTime
           Value: "1601-01-01T00:00:00.0000000"
+        - Name: Voltage
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I2/L1toNVoltage"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: Current
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I2/L1Current"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: Frequency
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I3/Frequency"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: ApparentPower
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I3/L1ApparentPower"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: PowerFactor
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I3/L1PowerFactor"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: ReactivePower
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I3/L1ReactivePower"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: RealPower
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM500&:I3/L1RealPower"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
         - Name: Timestamp
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
-        - Name: Voltage
-          Type: StoreColumn
-          DataType: BaseDataType
-        - Name: Current
-          Type: StoreColumn
-          DataType: BaseDataType
-        - Name: Energy
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Real Power
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Apparent Power
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Reactive Power
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Power Factor
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
   - Class: Reference
     Target: ns=19;i=30
     Direction: Forward

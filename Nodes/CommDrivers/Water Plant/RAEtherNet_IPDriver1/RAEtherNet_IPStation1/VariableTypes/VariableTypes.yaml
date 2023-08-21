@@ -2,7 +2,7 @@ Name: VariableTypes
 Type: FolderType
 Children:
 - Name: 'AB:1420_V1A_ENT_A691F258:I:0'
-  Id: g=f1272af0047ae5d690e5369a936adb88
+  Id: g=92f0fafbd9c0ec1ddc4a63c35fe6fd40
   Supertype: TagStructure
   DataType: 'AB:1420_V1A_ENT_A691F258:I:0'
   ValueRank: Any
@@ -10,7 +10,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "76913c0419db6f094d9bab299349ce9f",
+     "Id": "efd7f1535d7b7b1c55cf3237cda28d14",
      "Namespace": 30
     },
     "Body": {
@@ -208,7 +208,7 @@ Children:
       DataType: String
       Value: "TotalRealPower"
 - Name: 'AB:1420_V1A_ENT_DBFAFEEF:I:0'
-  Id: g=7345fbced4527c8dfe80b4e3ff005e9b
+  Id: g=4f664cf2f4de07262e0867178ede8d21
   Supertype: TagStructure
   DataType: 'AB:1420_V1A_ENT_DBFAFEEF:I:0'
   ValueRank: Any
@@ -216,7 +216,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "783112e8b93bebe5f241da8c21d5b3a1",
+     "Id": "0f75739e321f6e4a3534026861b6c75f",
      "Namespace": 30
     },
     "Body": {
@@ -404,7 +404,7 @@ Children:
       DataType: String
       Value: "DmdTotalVAR"
 - Name: 'AB:1420_V1A_ENT_4F149A65:I:0'
-  Id: g=58e0defaf3a53efc6b3bc1790cff5da8
+  Id: g=f14d38b4ebe3e15e4246c499dd05dbb2
   Supertype: TagStructure
   DataType: 'AB:1420_V1A_ENT_4F149A65:I:0'
   ValueRank: Any
@@ -412,7 +412,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "436792e5be24ab5acab406b2c6c78adc",
+     "Id": "77d4a2b13caeb08cc1e334136909c2da",
      "Namespace": 30
     },
     "Body": {
@@ -550,7 +550,7 @@ Children:
       DataType: String
       Value: "NeCurrentCalc"
 - Name: 'AB:1420_V1A_ENT_BC244CBD:I:0'
-  Id: g=01794cad5c1fa02e6fed27d70fa6e299
+  Id: g=4367ff3f494b4b63b7400a8c28122cf1
   Supertype: TagStructure
   DataType: 'AB:1420_V1A_ENT_BC244CBD:I:0'
   ValueRank: Any
@@ -558,7 +558,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "e5851f69f7a8cf23096c1c297815831b",
+     "Id": "f81c1f16aaa16bbb584cd284f31fa7be",
      "Namespace": 30
     },
     "Body": {
@@ -676,7 +676,7 @@ Children:
       DataType: String
       Value: "Letter9Letter10"
 - Name: 'AB:1420_V1A_ENT_BC1E731C:I:0'
-  Id: g=a281e38c33078458c1b6f36014f9660e
+  Id: g=0ecddc05dcaba60dc72cf0ba0953c7d1
   Supertype: TagStructure
   DataType: 'AB:1420_V1A_ENT_BC1E731C:I:0'
   ValueRank: Any
@@ -684,7 +684,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "fa58a80257aed0b7ce10a954bc71872f",
+     "Id": "2e7d7973ea1b73beb1dca84d077a9c4a",
      "Namespace": 30
     },
     "Body": {
