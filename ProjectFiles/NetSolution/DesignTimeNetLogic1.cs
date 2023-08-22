@@ -17,6 +17,8 @@ using FTOptix.Core;
 using FTOptix.WebUI;
 using FTOptix.Report;
 using FTOptix.Modbus;
+using FTOptix.Alarm;
+using FTOptix.EventLogger;
 #endregion
 
 public class DesignTimeNetLogic1 : BaseNetLogic

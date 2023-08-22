@@ -13,6 +13,8 @@ using System.Linq;
 using FilesystemBrowser;
 using FTOptix.Report;
 using FTOptix.Modbus;
+using FTOptix.Alarm;
+using FTOptix.EventLogger;
 
 public class FolderBarLogic : BaseNetLogic {
     public override void Start() {

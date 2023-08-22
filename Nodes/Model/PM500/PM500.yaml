@@ -2,6 +2,7 @@ Name: PM500
 Type: FolderType
 Children:
 - Name: PowerFactor
+  Id: g=2960c3fd90e5386c3712e6ad2caad36a
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -30,6 +31,7 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: PowerReal
+  Id: g=7b32a5a952d14f1cd885b069e76595c6
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0

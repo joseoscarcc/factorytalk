@@ -5,6 +5,8 @@ using System;
 using UAManagedCore;
 using FTOptix.UI;
 using FTOptix.Modbus;
+using FTOptix.Alarm;
+using FTOptix.EventLogger;
 #endregion
 
 public class ReportEditorOutputMessageLogic : BaseNetLogic {

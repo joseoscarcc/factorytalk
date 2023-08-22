@@ -14,6 +14,8 @@ using FilesystemBrowser;
 using FTOptix.UI;
 using FTOptix.Report;
 using FTOptix.Modbus;
+using FTOptix.Alarm;
+using FTOptix.EventLogger;
 
 public class FilesystemBrowserLogic : BaseNetLogic {
     public override void Start() {

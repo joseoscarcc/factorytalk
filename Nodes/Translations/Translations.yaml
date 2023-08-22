@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [17,2],
+    "Dimensions": [29,2],
     "Body": [
      "","en-US",
      "Follow","Follow",
@@ -27,6 +27,18 @@ Children:
      "Configuration","Configuration",
      "Create Report","Create Report",
      "View Report","View Report",
-     "Report created","Report created"
+     "Report created","Report created",
+     "Acknowledge","Acknowledge",
+     "Acknowledge All","Acknowledge All",
+     "Confirm","Confirm",
+     "Confirm All","Confirm All",
+     "SourceName","Source Variable",
+     "Timestamp","Timestamp",
+     "Name","Name",
+     "Message","Message",
+     "Active","Active",
+     "Acked","Acked",
+     "Confirmed","Confirmed",
+     "Severity","Severity"
     ]
    }

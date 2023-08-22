@@ -20,9 +20,13 @@ Children:
   Id: g=50a9ed72acc1ad2ed4939dd8362d29fb
   Type: BaseDataVariableType
   DataType: Duration
-  Value: "0:00:00:0.0000000"
+  Value: "0:00:00:1.0000000"
 - Name: Sampling_Period_Value
   Id: g=0b374861076a088b6628b9fd335d33bb
   Type: BaseDataVariableType
   DataType: Duration
   Value: "0:00:00:1.0000000"
+- Name: Start_Time_Trend
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "1601-01-01T00:00:00.0000000"

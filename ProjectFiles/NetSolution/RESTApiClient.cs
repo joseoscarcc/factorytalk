@@ -15,6 +15,8 @@ using System.Threading.Tasks;
 using FTOptix.WebUI;
 using FTOptix.Report;
 using FTOptix.Modbus;
+using FTOptix.Alarm;
+using FTOptix.EventLogger;
 #endregion
 
 public class RESTApiClient : BaseNetLogic
