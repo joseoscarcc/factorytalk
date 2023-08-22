@@ -21,3 +21,13 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
+- Name: PDF_Output_Path
+  Id: g=b75f90252ff336ea7f54032228d2e1ab
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "C:\\Shared Files - Process Room\\FT Optix Files\\SandBox_Energy\\ProjectFiles\\PDF\\DataReport.pdf"
+- Name: Query_Max_Values
+  Id: g=855f20ff07b1db84bc39a9a855cbcdb6
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "SELECT * FROM \"DataLogger1\" limit 20"

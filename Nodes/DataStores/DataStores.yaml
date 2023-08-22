@@ -28,7 +28,6 @@ Children:
         Type: BaseObjectType
         Children:
         - Name: LocalTimestamp
-          Id: g=c6072f39e0a572575b9f5ead383b35dd
           Type: StoreColumn
           DataType: DateTime
           Value: "1601-01-01T00:00:00.0000000"
