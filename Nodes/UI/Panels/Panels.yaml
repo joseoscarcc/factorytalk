@@ -2329,7 +2329,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: ".."
+        Value: "{NodeId:ns=30;g=50a9ed72-acc1-ad2e-d493-9dd8362d29fb}"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -3271,7 +3271,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../Trend1/YAxis/MinValue"
+        Value: "../../Trend1/YAxis/MaxValue"
         Children:
         - Name: Mode
           Type: BaseVariableType
